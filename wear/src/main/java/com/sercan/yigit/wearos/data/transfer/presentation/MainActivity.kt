@@ -93,11 +93,6 @@ class MainActivity : ComponentActivity(), DataClient.OnDataChangedListener  {
         startService(intent)
     }
 
-    /*
-    EXTRA_CURRENT_TIME ile telefon tarafındaki onDataChanged metoduna
-    girebilmesi için her seferinde farklı data gönderilmesi gerek
-    bu yüzden zaman bilgisini gönderiyoruz
-    */
     private fun sendMessageToMobileApp(data: String) {
         val dataMapRequest = PutDataMapRequest.create(PATH_FOR_MOBILE)
         val map = dataMapRequest.dataMap

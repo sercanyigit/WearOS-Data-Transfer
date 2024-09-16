@@ -96,11 +96,6 @@ class MainActivity : ComponentActivity(), DataClient.OnDataChangedListener {
         startService(intent)
     }
 
-    /*
-    EXTRA_CURRENT_TIME ile saat tarafındaki onDataChanged metoduna
-    girebilmesi için her seferinde farklı data gönderilmesi gerek
-    bu yüzden zaman bilgisini gönderiyoruz
-    */
     private fun sendDataToWearApp(data: String) {
         val dataMapRequest = PutDataMapRequest.create(PATH_FOR_WEAR)
         val map = dataMapRequest.dataMap
