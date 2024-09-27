@@ -16,7 +16,7 @@ WearOS, Jetpack Compose, Data Client, P2P Connection
 - İmzalama işlemi yapılacaksa hem saat hemde telefon aynı keystore ile imzalanmalıdır.
 - onDataChanged() metodu ile saat ve telefon tarafında gelen datalar alınabilir. Belirtilen path'e ilgili datalar yazılır. Eğer data uniq değilse bu metoda tekrar girmez. Her Data göndermek istediğimiz de ekstra uniq bir değer ile beraber göndermeliyiz.
 
-![Screen 1](https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/wear1.png)
-![Screen 2](https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/mobile1.png)
-![Screen 3](https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/mobile2.png)
-![Screen 4](https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/wear2.png)
+<img src="https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/wear1.png" width=25% height=25%>
+<img src="https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/mobile1.png" width=25% height=25%>
+<img src="https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/mobile2.png" width=25% height=25%>
+<img src="https://github.com/sercanyigit/WearOS-Data-Transfer/blob/main/screenshot/wear2.png" width=25% height=25%>
